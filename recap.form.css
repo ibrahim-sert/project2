@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(https://cdn.pixabay.com/photo/2021/10/18/08/39/pumpkin-6720424_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  background-color: background-color: #FBAB7E;
+  background-image: linear-gradient(315deg, #FBAB7E 44%, #F7CE68 68%);
+  opacity: 0.8;
+  
+  
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px;
+}
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+label {
+  width: 125px;
+  display: inline-block;
+}
+.inputs {
+  border-radius: 15px;
+  padding: 5px;
+  width: 300px;
+  margin-bottom: 10px;
+  border: none;
+}
+.gender-div {
+  display: inline-block;
+}
+.gender-div label {
+  width: auto;
+  margin-right: 10px;
+}
+.radio-check {
+  margin-bottom: 10px;
+}
+.btn-container {
+  text-align: center;
+}
+.btn-container input {
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(180, 223, 237);
+  padding: 10px;
+}
+.btn-container input:hover {
+  background-color: rgba(0, 0, 0, 0.415);
+  font-weight: 700;
+  cursor: pointer;
+}
+.textarea-div * {
+  vertical-align: middle;
+}

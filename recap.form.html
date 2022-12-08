@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halloween</title>
+    <link rel="stylesheet" href="recap.form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2>WELCOME TO HALLOWEEN</h2>
+    <form action="">
+      <div>
+        <label for="fname">First Name:</label>
+        <input
+          class="inputs"
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="Enter First Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input
+          class="inputs"
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="Enter Last Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          class="inputs"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Email"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input
+          class="inputs"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+          required
+        />
+      </div>
+      <div>
+        <label for="dob">Day of Birth:</label>
+        <input
+          class="inputs"
+          type="date"
+          name="dob"
+          id="dob"
+          value="2022-01-01"
+          min="2020-01-01"
+          placeholder="Enter Birthday"
+          required
+        />
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input
+          class="inputs"
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Enter Phone"
+          required
+        />
+      </div>
+      <div class="textarea-div">
+        <label for="adress">Adress:</label>
+        <textarea
+          class="inputs"
+          name="adress"
+          id="adress"
+          cols="20"
+          rows="5"
+          placeholder="Enter Adress"
+        ></textarea>
+      </div>
+      <div>
+        <label for="country">Country:</label>
+        <select class="inputs" name="country" id="country">
+          <option value="null">Select Country</option>
+          <option value="ABD">ABD</option>
+          <option value="Germany">Germany</option>
+          <option value="Greece">Greece</option>
+        </select>
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+        <div class="gender-div">
+          <input class="radio-check" type="radio" name="gender" id="gender" />
+          <label for="male">Male</label>
+          <input class="radio-check" type="radio" name="gender" id="gender" />
+          <label for="gender">Female</label>
+          <input class="radio-check" type="radio" name="gender" id="gender" />
+          <label for="gender">Others</label>
+        </div>
+      </div>
+
+      <div class="btn-container">
+        <input type="submit" value="Save" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+  </body>
+</html>
